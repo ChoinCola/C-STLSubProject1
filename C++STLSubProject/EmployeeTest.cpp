@@ -10,25 +10,25 @@
 	main함수와 충돌하지 않도록 한다.
 */
 
-//#pragma once
-//#include <iostream>
-//#include "Employee.h"
-//
-//using namespace std;
-//using namespace Records;
-//
-//int main()
-//{
-//	cout << "Testing the Employee Class." << endl;
-//	Employee emp;
-//	emp.setFirstName("John");
-//	emp.setLastName("Doe");
-//	emp.setEmployeeNumber(71);
-//	emp.setSalary(50000);
-//	emp.promote();
-//	emp.promote(50);
-//	emp.hire();
-//	emp.display();
-//
-//	return 0;
-//}
+#pragma once
+#include <iostream>
+#include "Employee.h"
+
+using namespace std;
+using namespace Records;
+
+int main()
+{
+	cout << "Testing the Employee Class." << endl;
+	Employee emp;
+	emp.setFirstName("John");
+	emp.setLastName("Doe");
+	emp.setEmployeeNumber(71);
+	emp.setSalary(50000);
+	emp.promote();
+	emp.promote(50);
+	emp.hire();
+	emp.display();
+
+	return 0;
+}
